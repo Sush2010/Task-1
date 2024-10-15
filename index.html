@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="form">
+        <form>
+            <table>
+                <tr>
+                    <td>User name:</td>
+                    <td>
+                        <input type="text" id="one" placeholder="Enter your username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="email" onkeyup="valid()"  id="two" placeholder="Enter your email">
+                        <div class="s">Please enter a valid email</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone number:</td>
+                    <td><input type="number" onkeyup="valid1()" id="three" placeholder="Enter your number">
+                        <div class="o">Please enter valid phone number</div> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="submit">Submit</button> <button onclick="cancel(event)">Cancel</button>
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="tab">
+        <table border ="1" class="a">
+            <tr>
+                <td>User name</td>
+                <td>Email</td>
+                <td>Phone number</td>
+            </tr>
+        </table>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

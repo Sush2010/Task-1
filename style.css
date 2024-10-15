@@ -1,0 +1,28 @@
+div.form{
+    position: relative;
+    left: 40%;
+    top: 20px;
+}
+button{
+    margin-top: 10px;
+    margin-right: 3px;
+} 
+.a{
+    margin-left: 36%;
+    margin-top: 100px;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.a td{
+    padding: 4px;
+}
+.s{
+    color: red;
+    display: none;
+}
+.o{
+    color: red;
+    display: none;
+}
