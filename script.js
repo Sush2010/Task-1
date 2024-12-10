@@ -41,8 +41,6 @@ function cancel(event) {
     three.value = ""
     s.style.display = "none"
     o.style.display = "none"
-
-
 }
 
 function valid() {
